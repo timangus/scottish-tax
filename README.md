@@ -1,2 +1,2 @@
-# Scottish Tax Rates December 2022
+# Scottish Tax Rates December 2023
 ![Tax Rates Plotted](scottish-tax.png)

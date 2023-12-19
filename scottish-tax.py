@@ -26,8 +26,9 @@ def main():
         TaxBand(12571, 14733, 0.19),            # basic_rate_threshold
         TaxBand(14733, 25689, 0.20),            # intermediate_rate_threshold
         TaxBand(25689, 43633, 0.21),            # higher_rate_threshold
-        TaxBand(43633, 125140, 0.42),           # top_rate_threshold
-        TaxBand(125140, float('inf'), 0.47)     # additional_rate_threshold
+        TaxBand(43633, 75000, 0.42),            # top_rate_threshold
+        TaxBand(75000, 125140, 0.45),           # top_rate_2_threshold
+        TaxBand(125140, float('inf'), 0.48)     # additional_rate_threshold
     ]
 
     pa_reduction_threshold = 100000
