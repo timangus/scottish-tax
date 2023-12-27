@@ -34,7 +34,7 @@ def main():
     pa_reduction_threshold = 100000
 
     ni_bands = [
-        TaxBand(242 * 52, 967 * 52, 0.12),      # ni_lower_threshold
+        TaxBand(242 * 52, 967 * 52, 0.10),      # ni_lower_threshold
         TaxBand(967 * 52, float('inf'), 0.02)   # ni_upper_threshold
     ]
 
